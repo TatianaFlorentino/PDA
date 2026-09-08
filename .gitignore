@@ -1,0 +1,13 @@
+# Ignore tooling / secrets if accidentally added
+.env
+.env.*
+*.pem
+*.p12
+secrets/
+node_modules/
+target/
+.idea/
+.vscode/
+*.log
+Thumbs.db
+.DS_Store
