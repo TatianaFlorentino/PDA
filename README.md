@@ -4,8 +4,16 @@ Snapshot documental do trabalho no workspace **PDA2** (produto Reserva Corporati
 
 > Este repositório guarda **documentação e roteiros**, não o código-fonte completo da API/Web Smart (origem institucional no GitLab GOV).
 
+**Clone local neste workspace:** `C:\GEREDETIC\PDA2\PDA` → remote [github.com/TatianaFlorentino/PDA](https://github.com/TatianaFlorentino/PDA).
+
 **Produto:** aplicação web interna para cadastro de recursos compartilhados e reservas sem conflito (perfis Usuário e Gestor).  
 **SSO desenv:** `ssodesenv.go.gov.br` · **Sigla Portal:** `RESREC`
+
+### Framework PDA (como funciona)
+
+Leia primeiro: **[docs/process/COMO_FUNCIONA_O_PDA.md](docs/process/COMO_FUNCIONA_O_PDA.md)** — processo PDA-Squad, multi-repo, artefatos, ciclos de prompts/skills, gates humanos e o exemplo RESREC.
+
+No workspace PDA2, o kit completo do processo fica em `pda-squad/` (CLI + skills + proposta).
 
 ---
 
@@ -88,6 +96,7 @@ Com SSO e Portal em 403: manter `portalFallbackLocal: true`.
 
 | Documento | Caminho |
 | --- | --- |
+| **Como funciona o framework PDA** | [docs/process/COMO_FUNCIONA_O_PDA.md](docs/process/COMO_FUNCIONA_O_PDA.md) |
 | Roteiro local (casa/trabalho) | [docs/implementation/ROTEIRO_LOCAL_CASA.md](docs/implementation/ROTEIRO_LOCAL_CASA.md) |
 | Estado / rastreabilidade | [docs/implementation/PROJECT_STATE.md](docs/implementation/PROJECT_STATE.md) |
 | Changelog do ambiente local | [CHANGELOG_LOCAL.md](CHANGELOG_LOCAL.md) |
